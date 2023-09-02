@@ -65,7 +65,6 @@ route.get("/readProject", projectController.readProject );
 route.get("/deleteProject", projectController.deleteProject );
 route.get("/updateProject", projectController.updateProject);
 
-
 // Service Route
 route.get("/createService", serviceController.createService );
 route.get("/readService", serviceController.readService );
